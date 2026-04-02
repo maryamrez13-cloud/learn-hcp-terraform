@@ -20,6 +20,7 @@ resource "azurerm_resource_group" "rg" {
     tags = {
     Environment = "Terraform Getting Started"
     Team = "NetDevOps"
+    Organization = "TMU"
   }
 }
 
